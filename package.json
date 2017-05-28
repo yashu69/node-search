@@ -1,0 +1,21 @@
+{
+  "name": "node-search",
+  "version": "0.0.1",
+  "description": "Pencarian Sederhana",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server"
+  },
+  "author": "Nurimansyah Rifwan &lt;nurimansyah.rifwan@outlook.com&gt;",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0",
+    "rethinkdb": "^2.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
